@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 64px 16px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.message {
+  font-size: 16px;
+}
+
+.actionLink {
+  padding: 10px 24px;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actionLink:hover {
+  background-color: #1d4ed8;
+}
+
+.actionLink:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}
