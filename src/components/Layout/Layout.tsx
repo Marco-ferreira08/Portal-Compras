@@ -1,11 +1,15 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
 
 export function Layout() {
   return (
-    <>
+    <div className="flex min-h-screen flex-col bg-stone-50 dark:bg-stone-950">
       <Header />
-      <Outlet />
-    </>
+      <div className="flex-1">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
   );
 }
