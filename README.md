@@ -154,3 +154,5 @@ Este projeto foi utilizado para praticar:
 ---
 
 Projeto acadêmico desenvolvido com fins de aprendizado, utilizando dados da [Fake Store API](https://fakestoreapi.com).
+
+---
